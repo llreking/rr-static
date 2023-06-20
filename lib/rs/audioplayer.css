@@ -1,0 +1,13 @@
+﻿.a-player-box{position:fixed;left:0;bottom:0;height:68px;width:100%;background:#393844;z-index:1}
+.a-player{width:100%;max-width:480px;background:#393844;margin:auto;height:100%;padding:10px 10px;display:flex}
+.a-player .a-cover{
+    background-image:url(img/music.jpg);background-repeat:no-repeat;background-size:cover;background-position:center;width:48px;height:48px;
+}
+.a-player .a-btn-box{width:48px;height:48px;display:flex;justify-content:center;align-items:center}
+.a-player .a-btn-box:last-child{width:30px}
+.a-player #a-btn-play{font-size:30px;color:#887bf2}
+.a-player #a-btn-stop{font-size:20px;color:#887bf2}
+.a-player .a-body{padding:0 10px;width:calc(100% - 126px)}
+.a-player #a-progress .handle{width:14px;height:14px;top:-6px}
+.a-player .a-title{color:#acaef8;font-size:14px;padding-top:5px;padding-bottom:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:calc(100% - 100px);float:left}
+.a-player .a-duration{width:90px;text-align:right;color:#fff;font-size:12px;float:right;padding-top:8px}

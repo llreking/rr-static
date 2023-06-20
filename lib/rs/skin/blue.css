@@ -1,0 +1,20 @@
+﻿.navbar{background:#2D6DCC;border-color:blue}
+
+.nav-toggle-admin{background:rgba(0,0,0,0.3);color:#fff}
+aside{background:#E9F6FB;}
+aside .list>.list-item{border-color:#e5e5e5;padding-left:45px}
+aside .list>.list-item:hover{background:rgba(255,255,255,1);color:#50a0ff}
+aside .list>.list-item.actived{color:#50a0ff;border-left:3px solid #50a0ff}
+aside .accordion dt,aside .accordion dd{border-color:#e5e5e5}
+aside .accordion *{color:#333}
+
+.page-tag{background:#C6EDFC}
+.page-tag .drawer,.page-tag .clear{background:rgba(0,0,0,0.2);}
+.page-tag .drawer:hover,.page-tag .clear:hover{background:rgba(0,0,0,0.3)}
+
+.page-tag .tag{background:#DBD9D9;color:#000}
+.page-tag .tag:hover{background:rgba(0,0,0,0.1)}
+.page-tag .tag.actived{background:#fff;color:#000}
+.page-tag .tag>i{color:#B3B7BC}
+.page-tag .tag.actived i{color:#8a8a8a}
+.page-tag .tag>i:hover{background:#F17C77;color:#fff}

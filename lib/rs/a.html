@@ -1,0 +1,36 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <link href="/lib/rs/iconfont/iconfont.min.css" rel="stylesheet" />
+    <link href="../datepicker/datepicker.css" rel="stylesheet" />
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="a" value="2022-12-13" readonly/>
+    <div id="a" style="width:100%;height:100%;background:gray"></div>
+    <script src="../jquery/jq2.js"></script>
+    <script src="../datepicker/datepicker.min.js"></script>
+    <script>
+        var calendar = new datePicker();
+        calendar.init({
+            'trigger': '#a', /*选择器，触发弹出插件*/
+            'type': 'date',/*date 调出日期选择 datetime 调出日期时间选择 time 调出时间选择 ym 调出年月选择*/
+            'minDate':'2022-12-5',/*最小日期*/
+            'maxDate':'2022-12-15',/*最大日期*/
+            'onSubmit':function(){/*确认时触发事件*/
+                //var theSelectData=calendar.value;
+                console.log(calendar.value)
+            },
+            'onClose':function(){/*取消时触发事件*/
+            }
+        });
+    </script>
+</body>
+</html>

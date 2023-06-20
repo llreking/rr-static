@@ -1,0 +1,18 @@
+﻿.pagings{display:flex;user-select:none}
+.pagings *{box-sizing:border-box;height:34px;line-height:32px;}
+.pagings .paging-page-box,.pagings .paging-op-box{display:flex}
+.pagings .paging-op-box{margin-left:20px}
+.pagings .paging-page-box .paging{display:inline-block;border:1px solid #ddd;border-right:0px;border-style:solid;padding:0 10px;font-size:14px}
+.pagings .paging-page-box .paging:first-child{border-radius:3px 0 0 3px}
+.pagings .paging-page-box .paging:last-child{border-right:1px solid #ddd;border-radius:0 3px 3px 0}
+.pagings .pgdot{color:#aeacac}
+.pagings .paging{background:#fff;color:#000}
+.pagings .paging.current{background:#edecec;color:#c1bebe}
+.pagings a:hover{text-decoration:none !important;color:blue;background:#f3f2f2}
+.paging_total_count{padding-right:10px;font-size:12px;color:#9d9d9d}
+.pagings input,.pagings select{min-width:50px;box-sizing:border-box;font-size:14px;border:1px solid #ddd;border-right:0;outline:none;text-align:center}
+.pagings input{width:60px}
+.pagings .lb_txtPage{color:#9d9d9d;border:1px solid #ddd;border-right:0;padding:0 8px;font-size:14px}
+.pagings .lb_txtPage:first-child{border-radius:3px 0 0 3px}
+.pagings .lb_txtPage:last-child{border-right:1px solid #ddd;border-radius:0 3px 3px 0}
+.pagings .btn_jumpToPage{user-select:none;cursor:pointer;font-size:14px;color:#000}

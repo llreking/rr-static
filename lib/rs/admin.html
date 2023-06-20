@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <script src="../jquery/jquery-3.6.0.min.js"></script>
+    <script src="../jquery/jquery.slimscroll.min.js"></script>
+    <script src="rutil.min.js"></script>
+    <script src="/lib/rs/rs.js"></script>
+    <script src="rsadmin.js"></script>
+    <link href="/lib/rs/iconfont/iconfont.min.css" rel="stylesheet" />
+    <link href="/lib/rs/rs.css" rel="stylesheet" />
+    <link href="rsadmin.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar static">
+        <div class="container-fluid">
+            <a class="logo">logo</a>
+            <nav class="hidden-xs">
+                <ul>
+                    <li class="actived"><a>首页</a></li>
+                    <li class="dropdown hover">
+                        <a>一级hover <i class="rf">&#xe6d5;</i></a>
+                        <ul class="menu box-shadow radius">
+                            <li>
+                                <a>二级</a>
+                            </li>
+                            <li>
+                                <a>二级二级 <i class="f-r rf rf-arrow2-right"></i></a>
+                                <ul class="menu box-shadow radius">
+                                    <li>
+                                        <a>三级</a>
+                                    </li>
+                                    <li>
+                                        <a>三级</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown hover ani">
+                        <a>一级hover带动画 <i class="rf">&#xe6d5;</i></a>
+                        <ul class="menu box-shadow radius">
+                            <li>
+                                <a>二级</a>
+                            </li>
+                            <li>
+                                <a>二级二级 <i class="f-r rf rf-arrow2-right"></i></a>
+                                <ul class="menu box-shadow radius">
+                                    <li>
+                                        <a>三级</a>
+                                    </li>
+                                    <li>
+                                        <a>三级</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a>一级click <i class="rf">&#xe6d5;</i></a>
+                        <ul class="menu box-shadow radius">
+                            <li>
+                                <a>二级二级二级二级</a>
+                            </li>
+                            <li>
+                                <a>二级二级 <i class="f-r rf rf-arrow2-right"></i></a>
+                                <ul class="menu box-shadow radius">
+                                    <li>
+                                        <a>三级</a>
+                                    </li>
+                                    <li>
+                                        <a>三级</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown ani">
+                        <a>一级click带动画 <i class="rf">&#xe6d5;</i></a>
+                        <ul class="menu box-shadow radius">
+                            <li>
+                                <a>二级二级二级二级</a>
+                            </li>
+                            <li>
+                                <a>二级二级 <i class="f-r rf rf-arrow2-right"></i></a>
+                                <ul class="menu box-shadow radius">
+                                    <li>
+                                        <a>三级</a>
+                                    </li>
+                                    <li>
+                                        <a>三级</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown hover ani">
+                        <a>自定义 <i class="rf">&#xe6d5;</i></a>
+                        <div class="menu radius10" style="width:500px;top:100%;height:200px;left:-50px;padding:10px;background:#697df2">
+                            <span style="color:#fff">自定义menu</span>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="right hidden-xs">
+                <ul>
+                    <li><a>右侧</a></li>
+                    <li class="dropdown hover right">
+                        <a>一级 hover <i class="rf">&#xe6d5;</i></a>
+                        <ul class="menu box-shadow radius">
+                            <li>
+                                <a>二级二级二级二级</a>
+                            </li>
+                            <li>
+                                <a>二级二级 <i class="f-r rf rf-arrow2-right"></i></a>
+                                <ul class="menu box-shadow radius">
+                                    <li>
+                                        <a>三级</a>
+                                    </li>
+                                    <li>
+                                        <a>三级</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown right">
+                        <a>一级 click <i class="rf">&#xe6d5;</i></a>
+                        <ul class="menu box-shadow radius">
+                            <li>
+                                <a>二级二级二级二级</a>
+                            </li>
+                            <li>
+                                <a>二级二级 <i class="f-r rf rf-arrow2-right"></i></a>
+                                <ul class="menu box-shadow radius">
+                                    <li>
+                                        <a>三级</a>
+                                    </li>
+                                    <li>
+                                        <a>三级</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <a class="nav-toggle-admin visible-xs rf rf-menu"></a>
+        </div>
+    </div>
+    <aside>
+        <dl class="accordion">
+            <dt><span><i class="rf rf-avatar"></i> 用户管理</span></dt>
+            <dd>
+                <div class="list noborder">
+                    <a class="list-item" data-url="https://hopexp.55ty.com.cn/power">测试</a>
+                </div>
+            </dd>
+        </dl>
+    </aside>
+    
+    <div class="pages">
+        <div class="page-tag">
+            <a class="drawer"></a>
+            <div class="tag-box">
+                <div class="tags scroll-menu">
+                    <a class="tag" pageid="0">测试</a>
+                </div>
+            </div>
+            <a class="clear" title="关闭全部"></a>
+        </div>
+        <div class="page-list">
+            <div class="page" pageid="0">
+                 <div class="pd-20">demo page</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
