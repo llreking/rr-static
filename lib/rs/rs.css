@@ -456,6 +456,8 @@ table th{text-align:left; font-weight:bold}
 /*奇数行背景设为浅灰色*/
 .table-striped tbody > tr:nth-child(odd) > td,
 .table-striped tbody > tr:nth-child(odd) > th{background-color:#f9f9f9}
+.table-striped tbody > tr:nth-child(even) > td,
+.table-striped tbody > tr:nth-child(even) > th{background-color:#fff}
 /*竖直方向padding缩减一半*/
 .table-condensed th,
 .table-condensed td{padding:4px 5px}
