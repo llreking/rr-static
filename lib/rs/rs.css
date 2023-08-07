@@ -631,8 +631,9 @@ table th{text-align:left; font-weight:bold}
 .accordion dt.open:after{transform:rotateZ(180deg)}
 .accordion dd{display:none;border-bottom:1px solid #f4f4f4;padding:10px}
 /*---slider----*/
-.slider{position:relative;height:2px;background:#b0b0b0;cursor:pointer}
-.slider .handle{border-radius:50%;background:#007AFF;width:28px;height:28px;display:block;position:absolute;left:0;top:-13px;}
+.slider{position:relative;height:28px;cursor:pointer;display:flex;align-items: center;justify-content: center;}
+.slider:before{display:block;width:100%;height:2px;width:100%;background:#b0b0b0;content:" "}
+.slider .handle{border-radius:50%;background:#007AFF;width:28px;height:28px;display:block;position:absolute;left:0;top:0;}
 .slider.disabled{cursor:not-allowed}
 .slider.disabled .handle{background:#e8e8e8}
 /*--checkbox/radio--*/
