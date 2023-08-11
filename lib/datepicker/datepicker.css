@@ -20,10 +20,9 @@
 	margin:0;
 	height:auto;
 	width:100%;
-	position:absolute;
+	/*position:absolute;
 	left:0;
-	bottom:0;
-	z-index:9901;
+	bottom:0;*/
 	overflow:hidden;
 	-webkit-transform:translate3d(0,0,0);
 	transform:translate3d(0,0,0);user-select:none
@@ -195,3 +194,5 @@ to {
 	line-height:2em;
 	text-align:center
 }
+.dp-outer-box{position:absolute;left:0;top:0;bottom:0;right:0;display:flex;justify-content: center;align-items:flex-end}
+.gearDate,.gearDatetime{z-index:85000000}
