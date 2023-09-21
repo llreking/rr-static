@@ -1,0 +1,62 @@
+﻿.file-upload{padding:8px;border:1px solid #ddd;font-size:14px}
+.file-upload .file-add{width:100px;height:100px;margin-left:5px;display:flex;justify-content:center;align-items:center;font-size:60px;color:#9489f5;border:1px solid #ddd;cursor:pointer;}
+
+.file-upload .file-list{width:100%;display:flex;justify-content:flex-start;flex-wrap:wrap;padding-bottom:5px}
+.file-upload .file-box{width:100%;height:50px;margin-bottom:5px;padding:5px 5px 0 5px;cursor:pointer}
+.file-upload  .file-box-wrap{width:100%;height:100%;background:#f5f5f5;display:flex;align-items:center;transition:all 0.5s;box-shadow:0 2px 5px rgba(0,0,0,0.2)}
+.file-upload  .file-box-wrap:hover{background:#e8e8e8}
+.file-upload  .file-box-wrap:hover .file-name{color:rgb(112, 161, 250)}
+.file-upload .file-view,.file-upload .file-op{width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;flex-grow:0}
+.file-upload .file-op{display:flex;justify-content:center;align-items:center}
+.file-upload .img-view{object-fit:cover;display:block;width:80%;height:80%}
+
+.file-upload.s30 .file-box{height:35px}
+.file-upload.s30 .file-box .file-view,.file-upload.s30 .file-box .file-op,.file-upload.s30 .file-add{width:30px;height:30px;}
+.file-upload.s40 .file-box{height:45px}
+.file-upload.s40 .file-box .file-view,.file-upload.s40 .file-box .file-op,.file-upload.s40 .file-add{width:40px;height:40px;}
+.file-upload.s50 .file-box{height:55px}
+.file-upload.s50 .file-box .file-view,.file-upload.s50 .file-box .file-op,.file-upload.s50 .file-add{width:50px;height:50px;}
+.file-upload.s60 .file-box{height:65px}
+.file-upload.s60 .file-box .file-view,.file-upload.s60 .file-box .file-op,.file-upload.s60 .file-add{width:60px;height:60px;}
+.file-upload.s70 .file-box{height:75px}
+.file-upload.s70 .file-box .file-view,.file-upload.s70 .file-box .file-op,.file-upload.s70 .file-add{width:70px;height:70px;}
+.file-upload.s80 .file-box{height:85px}
+.file-upload.s80 .file-box .file-view,.file-upload.s80 .file-box .file-op,.file-upload.s80 .file-add{width:80px;height:80px;}
+.file-upload.s90 .file-box{height:95px}
+.file-upload.s90 .file-box .file-view,.file-upload.s90 .file-box .file-op,.file-upload.s90 .file-add{width:90px;height:90px;}
+.file-upload.s100 .file-box{height:105px}
+.file-upload.s100 .file-box .file-view,.file-upload.s100 .file-box .file-op,.file-upload.s100 .file-add{width:100px;height:100px;}
+
+.file-upload .file-del{background:#7f92f3;display:flex;justify-content:center;align-items:center;line-height:28px;width: 28px;height: 28px;border-radius: 100%;overflow: hidden;text-align: center;transition: all 0.2s}
+.file-upload.s30 .file-del{line-height:24px;width: 24px;height: 24px}
+.file-upload .file-del:hover {background-color:#aebbf9;text-decoration: none}
+.file-upload .file-del i {color: #fff;font-size:16px;}
+.file-upload.s50 .file-add,.file-upload.s60 .file-add{font-size:40px}
+.file-upload.s40 .file-add {font-size:30px}
+.file-upload.s30 .file-add{font-size:25px}
+
+.file-upload.s30 .file-view,.file-upload.s30 .file-view{font-size:18px}
+.file-upload.s50 .file-view,.file-upload.s40 .file-view{font-size:25px}
+.file-upload.s60 .file-view,.file-upload.s60 .file-view{font-size:30px}
+.file-upload.s70 .file-view,.file-upload.s70 .file-view{font-size:35px}
+.file-upload.s80 .file-view,.file-upload.s80 .file-view{font-size:40px}
+.file-upload.s90 .file-view,.file-upload.s90 .file-view{font-size:45px}
+.file-upload.s100 .file-view,.file-upload.s100 .file-view{font-size:50px}
+.file-upload .file-ico{color:rgb(112, 161, 250)}
+.file-upload .file-name{font-size:14px;color:#4a4a4a;flex-shrink:1;flex-grow:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;transition:all 0.5s}
+
+.file-upload.s30 .file-name,.file-upload.s40 .file-name{font-size:14px}
+
+.file-upload .file-title{padding:0 0 5px 10px;color:#8a8a8a;display:flex;justify-content:space-between;font-size:16px}
+.file-upload .file-count{color:#9489f5;font-size:16px;font-weight:bold;margin-left:10px}
+.file-upload .file-clear{display:none;margin-right:8px}
+
+@media (min-width:900px) {
+	.file-upload .file-box{width: 50%}
+}
+@media (min-width:1200px) {
+	.file-upload .file-box{width: 33.3%}
+}
+@media (min-width:1700px) {
+	.file-upload .file-box{width: 25%}
+}
